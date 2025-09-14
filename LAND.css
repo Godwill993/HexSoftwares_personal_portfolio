@@ -1,8 +1,32 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.whole-body{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 40%;
+    min-width: 370px;
+ 
+  
+ 
+}
 .action-button {
-    background-color: #ebeced;
-    color: rgb(81, 79, 79);
+    background-color:#cbe9bfdb ;
+    color: rgb(5, 42, 2);
     border: none;
-    padding: 10px 20px;
+    padding: 6px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -15,7 +39,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px 1px;
   
   
 }
@@ -27,6 +51,60 @@
 .location{
     margin-left: 8px;  
 }
+.second-line{
+    display: flex;
+     justify-content: space-between;
+    align-items: center;
+    padding: 10px 2px;
+    margin-block: 20px;
+}
+.inbody{
+    
+    
+    list-style: none;
+    text-decoration: none;
+    color: rgb(102, 98, 98);
+     
+     width: 100%;
+    
+   
+
+
+}
+.middle-sec{
+    padding-inline: 5px;
+}
+li{
+    height:40px;
+    transition: 0.25s;
+    margin-top: 4px;
+    align-items: center;
+    display: flex;
+    border-radius: 6px;
+}
+li:hover{
+    background-color: rgba(128, 128, 128, 0.095);
+}
+.smaller{
+    width: 30px;
+    filter: brightness(0) invert(0.5) ;
+}
+.bottom-btn{
+    border: 1px solid grey;
+    background-color: transparent;
+    width: 99%;
+    margin-top: 8px;
+    color: grey;
+    font-size: large;
+    border-radius: 2px;
+}
+.line{
+    background-color: grey;
+    color: grey;
+    height: 3px;
+    width: 80px;
+    margin-top: 30px;
+}
 
 .animated-dot-btn{
 
@@ -34,7 +112,7 @@
         width: 12px;
         height: 12px;
         border-radius: 50%;
-        background: #007bff;
+        background: #4ba325;
         animation: dot-grow-shrink 1s infinite alternate;
         vertical-align: middle;
         margin-right: 3px;
