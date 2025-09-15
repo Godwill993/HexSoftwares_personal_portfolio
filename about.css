@@ -32,4 +32,14 @@ li{
     border: 1px solid grey;
     padding: 4px 10px;
     margin-top:30px;
+    border-radius: 12px;
+}
+
+.aspect{
+    display: flex;
+    align-items: center;
+}
+.second{
+    display: flex;
+    flex-wrap: 3;
 }
