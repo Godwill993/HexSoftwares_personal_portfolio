@@ -1,0 +1,18 @@
+a{
+    color: black;
+    text-decoration: none;
+
+}
+li{
+    list-style: none;
+}
+.NAV{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.linnks{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
