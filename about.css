@@ -1,6 +1,13 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 a{
     color: black;
     text-decoration: none;
+    margin-left: 10px;
 
 }
 li{
@@ -14,5 +21,15 @@ li{
 .linnks{
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content:space-around;
+}
+.ALL{
+    width: 50%;
+}
+.intro{
+    width: 100%;
+    height: fit-content;
+    border: 1px solid grey;
+    padding: 4px 10px;
+    margin-top:30px;
 }
