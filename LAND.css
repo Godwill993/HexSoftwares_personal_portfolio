@@ -16,7 +16,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 40%;
+    width: 37%;
     min-width: 370px;
  
   
@@ -40,6 +40,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 10px 1px;
+    margin-bottom: 8px;
   
   
 }
@@ -93,16 +94,17 @@ li:hover{
     border: 1px solid grey;
     background-color: transparent;
     width: 99%;
-    margin-top: 8px;
+    margin-top: 10px;
     color: grey;
     font-size: large;
     border-radius: 2px;
 }
 .line{
+    display: block;
     background-color: grey;
     color: grey;
-    height: 3px;
-    width: 80px;
+    height: 1px;
+    width: 100%;
     margin-top: 30px;
 }
 
