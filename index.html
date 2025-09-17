@@ -1,81 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="LAND.css" />
-    <style id="theme-style">
-      body {
-        background: #fff;
-        color: #000;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="whole-body">
-      <div class="extreme-top">
-        <div class="coner-top">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-building2 h-4 w-4"
-          >
-            <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path>
-            <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path>
-            <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path>
-            <path d="M10 6h4"></path>
-            <path d="M10 10h4"></path>
-            <path d="M10 14h4"></path>
-            <path d="M10 18h4"></path>
-          </svg>
-          <p class="location">Yaounde, Cameroon</p>
-        </div>
-        <button id="toggle-mode">Toggle Mode</button>
-      </div>
-      <h1>Lendzele Godwill</h1>
-      <p>Software Engineer</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <script src="https://kit.fontawesome.com/a2e0e6ad4d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <div class="top-buttons">
+      <button id="theme-toggle">🌙</button>
+      <a href="cv.pdf" class="download-btn" download>Download CV</a>
+    </div>
+  </header>
 
-      
-      <div class="second-line">
-        <p>MENU</p>
-        <button id="animated-dot-btn" class="action-button">
-        <span class="animated-dot-btn"></span>Download CV
-      </button>
+  <main class="container">
+    <h1>Hello, I'm <span class="highlight">Your Name</span></h1>
+    <p>A passionate developer building clean, modern interfaces</p>
 
+    <nav class="nav-links">
+      <a href="projects.html">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html">Contact</a>
+    </nav>
 
-      </div>
-      <div class="middle-sec">
-        <a class="inbody" href="about.html"><li>About</li>   </a>
-        <a class="inbody" href="#"><li>Projects</li></a>
-        <a class="inbody" href="#"><li>Skills</li>  </a>
-        <P>Contacts</P>
-      </div>
-<button class="bottom-btn"> <img class="smaller" src="/HexSoftwares_personal_portfolio/github-brands-solid-full (1).svg" alt=""> GitHub</button><br>
-<button class="bottom-btn"> <img class="smaller" src="/HexSoftwares_personal_portfolio/linkedin-brands-solid-full.svg" alt=""> LinkedIn</button>
-<span class="line"></span>
-
-
-
-    <div class="extreme-top">
-        <div class="coner-top">
-         <img class="smaller" src="/HexSoftwares_personal_portfolio/link-solid-full (1).svg" alt="">
-          
-        
-          <p class="location">Yaounde, Cameroon</p>
-        </div>
-         <button id="animated-dot-btn" class="action-button">
-        <span class="animated-dot-btn"></span>Available
-      </button>
-      </div>
-    
-      <script href="mode.js" src="mode.js"></script>
-  </body>
+    <div class="socials">
+      <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.github.com" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+  </main>
+</body>
 </html>
