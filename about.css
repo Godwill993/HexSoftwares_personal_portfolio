@@ -24,7 +24,7 @@ li{
     justify-content:space-around;
 }
 .ALL{
-    width: 50%;
+    width: 51%;
 }
 .intro{
     width: 100%;
@@ -33,13 +33,26 @@ li{
     padding: 4px 10px;
     margin-top:30px;
     border-radius: 12px;
+    margin-bottom: 60px;
 }
-
+p{
+    line-height: 2rem;
+}
 .aspect{
     display: flex;
     align-items: center;
+    padding: 6px;
+    width: 300px;
 }
 .second{
     display: flex;
-    flex-wrap: 3;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    gap: 5px;
+
+}
+.carea{
+    border: 1px solid grey;
+    border-radius: 12px;
 }
